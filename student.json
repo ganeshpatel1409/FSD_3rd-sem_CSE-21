@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Sharma",
+    "age": 19,
+    "grade": "A",
+    "email": "aarav.sharma@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "age": 18,
+    "grade": "B+",
+    "email": "priya.verma@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Gupta",
+    "age": 20,
+    "grade": "A-",
+    "email": "rohan.gupta@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "age": 19,
+    "grade": "B",
+    "email": "sneha.patel@example.com"
+  },
+  {
+    "id": 5,
+    "name": "Karan Mehta",
+    "age": 21,
+    "grade": "C+",
+    "email": "karan.mehta@example.com"
+  },
+  {
+    "id": 6,
+    "name": "Ananya Singh",
+    "age": 18,
+    "grade": "A",
+    "email": "ananya.singh@example.com"
+  },
+  {
+    "id": 7,
+    "name": "Vikram Rao",
+    "age": 22,
+    "grade": "B-",
+    "email": "vikram.rao@example.com"
+  },
+  {
+    "id": 8,
+    "name": "Meera Iyer",
+    "age": 20,
+    "grade": "A+",
+    "email": "meera.iyer@example.com"
+  },
+  {
+    "id": 9,
+    "name": "Aditya Kumar",
+    "age": 19,
+    "grade": "C",
+    "email": "aditya.kumar@example.com"
+  },
+  {
+    "id": 10,
+    "name": "Neha Joshi",
+    "age": 21,
+    "grade": "B+",
+    "email": "neha.joshi@example.com"
+  }
+]

@@ -1,0 +1,41 @@
+const express = require("express");
+const app = express();
+const PORT = 8000;
+
+// Load product data
+let products = [{
+    "id": 1,
+    "name": "Product 1",
+    "price": 100,
+    "category": "Electronics",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Product 2",
+    "price": 200,
+    "category": "Books",
+    "stock": 30
+  },
+  {
+    "id": 3,
+    "name": "Product 3",
+    "price": 150,
+    "category": "Fashion",
+    "stock": 75
+  }];
+
+
+// GET all products
+app.get("/products", (req, res) => {
+  res.json(products);
+});
+
+// GET product by ID
+app.get("/products/:id", (req, res) => {
+  const product = products.find(p => p.id == req.params.id);
+  product ? res.json(product) : res.status(404).send("Product not found");
+});
+
+// Start server
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));

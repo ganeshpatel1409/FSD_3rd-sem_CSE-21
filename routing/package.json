@@ -1,0 +1,13 @@
+{
+  "name": "routing",
+  "version": "1.0.0",
+  "description": "this is a routing module",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "Day9.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Day9.js"
+  }
+}
